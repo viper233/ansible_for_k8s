@@ -1,0 +1,10 @@
+--- kube-flannel.yml	2020-04-06 11:12:41.372887902 -0700
++++ kube-flannel.yml.new	2020-04-06 11:09:55.264891311 -0700
+@@ -283,6 +283,7 @@
+         args:
+         - --ip-masq
+         - --kube-subnet-mgr
++        - --iface=enp0s8
+         resources:
+           requests:
+             cpu: "100m"

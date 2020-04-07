@@ -2,6 +2,11 @@
 - hosts: kube
   become: true
 
+  pre_tasks:
+    - name: Include vagrant setup fixes
+      include_tasks:
+        vagrant-setup.yml
+
   roles:
     - geerlingguy.security
     - geerlingguy.swap
