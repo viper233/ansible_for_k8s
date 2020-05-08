@@ -1,7 +1,12 @@
 ---
+# Kubernetes cluster roles
 - src: geerlingguy.security
 - src: geerlingguy.swap
 - src: geerlingguy.docker
 - src: geerlingguy.kubernetes
 
 - src: andrewrothstein.kubernetes-helm
+
+# Wildfly cluster roles
+- src: lean_delivery.java
+- src: inkatze.wildfly

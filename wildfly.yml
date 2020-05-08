@@ -1,0 +1,7 @@
+---
+- hosts: centos8
+  become: true
+
+  roles:
+    - lean_delivery.java
+    - inkatze.wildfly

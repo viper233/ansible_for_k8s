@@ -1,4 +1,4 @@
-[centos_8]
+[centos8]
 cenntos1 ansible_host=192.168.7.2
 cenntos2 ansible_host=192.168.7.3
 cenntos3 ansible_host=192.168.7.4
