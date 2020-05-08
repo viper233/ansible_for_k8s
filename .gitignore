@@ -1,5 +1,7 @@
 *.retry
 roles/*
+.vagrant/*
 !roles/requirements.yml
 *.swp
+*.log
 
