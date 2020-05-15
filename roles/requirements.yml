@@ -8,5 +8,9 @@
 - src: andrewrothstein.kubernetes-helm
 
 # Wildfly cluster roles
-- src: lean_delivery.java
+#  Intense and covoluted role
+# - src: lean_delivery.java
+# constructing/destructing dictionaries, overuse of tertiary filter, over
+# engineered to the max to be almost unuseable.
+- src: ansiblebit.oracle-java
 - src: inkatze.wildfly
